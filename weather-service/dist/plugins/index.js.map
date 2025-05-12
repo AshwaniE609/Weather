@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/plugins/index.ts"],"sourcesContent":["export * from './datasources/openweather';\n\n"],"names":[],"mappings":";;;;qBAAc"}

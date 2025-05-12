@@ -1,0 +1,16 @@
+method: GET
+path: /weather
+handler: get_weather_workflow
+params:
+  - name: city
+    in: query
+    required: true
+    schema:
+      type: string
+responses:
+  200:
+    content:
+      application/json:
+        schema:
+          type: object
+

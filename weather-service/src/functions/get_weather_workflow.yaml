@@ -1,0 +1,10 @@
+id: get_weather_workflow
+summary: Get current weather for a city
+tasks:
+  - id: fetch_weather
+    fn: datasource.openweather.get./weather
+    args:
+      q: <% inputs.params.city %>
+      appid: <% env.OPENWEATHER_API_KEY %>
+      units: metric
+

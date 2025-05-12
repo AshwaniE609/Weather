@@ -1,0 +1,4 @@
+swagger:
+  path: plugins/swagger
+  enabled: true
+

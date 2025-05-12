@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/plugins/datasources/openweather.ts"],"sourcesContent":["const Type = \"openweather\";\n\n"],"names":["Type"],"mappings":";AAAA,MAAMA,OAAO"}
